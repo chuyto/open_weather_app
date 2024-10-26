@@ -31,7 +31,7 @@ class WeatherPage extends StatefulWidget {
 
 class WeatherPageState extends State<WeatherPage> {
   final _cityController = TextEditingController(); // Controlador del campo de texto
-  final String _apiKey = '4dba1713865b68b1328408ceacf25204'; // Reemplaza con tu propia API key de OpenWeatherMap
+  final String _apiKey = ''; // Reemplaza con tu propia API key de OpenWeatherMap
   String _city = ''; // Ciudad a consultar
   String _temperature = ''; // Almacena la temperatura
   String _weatherDescription = ''; // Almacena la descripción del clima
